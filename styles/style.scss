@@ -1,0 +1,1032 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* THE HEADING */
+
+header {
+    background-image: url('/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+// /* THE NAVBAR */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+}
+
+.logo {
+    width: 15%;
+    height: 20%;
+}
+
+.hamburger {
+    visibility: hidden;
+}
+.navbar-ul {
+    display: flex;
+}
+
+.navbar-ul li {
+    margin: 0 2rem;
+    list-style-type: none;
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.25em;
+}
+
+.navbar-ul li h4 a {
+    color: #000;
+}
+.active {
+    padding: 1rem 1.25rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+/* THE CREATIVE DIV  */
+h1 {
+    text-align: center;
+    padding-top: 2.5rem;
+    letter-spacing: 2px;
+    font-size: 3em;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+}
+
+.arrow {
+    position: absolute;
+    right: 50%;
+    top: 54%;
+}
+
+
+/* THE TRANSFORM SECTION */
+
+// .transform {
+//     height: 110vh;
+// }
+
+.row-1,
+.row-1a,
+.row-1b {
+    display: flex;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+.content {
+    padding: 4rem;
+    text-align: start;
+    position: relative;
+}
+h2 {
+    
+    font-size: 3em;
+    justify-content: start;
+    padding-bottom: 4rem;
+}
+
+p {
+    font-size: 1.39em;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+}
+
+.learn-more {
+    position: absolute;
+    bottom: 65px;
+    left: 10%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.learn-more-hr-tr,
+.learn-more-hr-st {
+    width: 155px;
+    border-radius: 50px;
+    height: 10px;
+}
+
+.learn-more-hr-tr {
+        background-color: hsl(51, 100%, 49%);
+}
+.learn-more-hr-st {
+        background-color: hsl(7, 99%, 70%);
+}
+
+// THE DESIGN SECTION
+
+#graphic-design {
+    background-image: url('/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#photography {
+    background-image: url('/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.photography-content,
+.graphic-design-content {
+    text-align: center;
+    padding: 25rem 5rem;
+}
+
+.photography-content {
+
+    & h3 {
+        font-size: 2rem;
+        color: hsl(198, 62%, 26%);
+        padding-bottom: 2rem;
+    }
+
+    & p {
+        font-size: 1.5em;
+        color: hsl(198, 62%, 26%);
+    }
+}
+.graphic-design-content  {
+    
+    & h3 {
+        font-size: 2rem;
+        color: hsl(167, 40%, 24%);
+        padding-bottom: 2rem;
+    }
+
+    & p{
+        font-size: 1.5em;
+        color: hsl(198, 62%, 26%);   
+    }
+}
+
+
+
+
+// THE CLIENT TESTIMONIALS
+
+.client-testimonials {
+    margin: 5rem;
+    justify-content: center;
+}
+
+.client-testimonial-heading {
+    color: hsl(213, 9%, 39%);
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-3 img {
+    display: block;
+    border-radius: 50%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-3 p {
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+    padding-bottom: 2rem;
+    justify-content: center;
+    font-size: 1.05rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.35em;
+}
+
+
+// THE PRODUCT IMAGES
+
+.row {
+    display: flex;
+}
+
+.col-4-sm {
+    display: flex;
+    width: 50%;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.product-images {
+    height: 60vh;
+}
+
+
+// THE FOOTER
+
+footer {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.footer-container {
+    padding: 5rem 2rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav ul li {
+    margin: 0 1rem;
+    list-style: none;
+}
+
+.footer-nav ul li a {
+        text-decoration: none;
+        color: hsl(168, 34%, 41%);
+        font-size: 1.5rem;
+
+        &:hover {
+            color: hsl(0, 0%, 100%);
+        }
+}
+
+.footer-logo {
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 3rem;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.row-f{
+   display: flex;
+   justify-content: center;
+}
+
+
+.col {
+    padding-top: 4rem;
+    margin: 0 2rem; 
+}
+
+.icon{
+    width: 25px;
+    fill: #000;
+    cursor: pointer;
+
+    &:hover {
+        fill: hsl(0, 0%, 100%);
+    }
+}
+
+.attribution {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.attribution p {
+    padding-top: 2rem;
+    margin: 0 .5rem;
+}
+
+.attribution p a {
+    color: rgb(5, 48, 88);
+
+    &:hover {
+        color: hsl(0, 0%, 100%);
+    }
+}
+
+
+// THE SECTIONS
+
+// .transform,
+// .stand-out {
+//     height: 90vh;
+// } 
+
+
+@media (min-width: 300px) and (max-width: 576px){
+
+    header {
+        background-image: url('/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        // width: 125%;
+    }
+
+    .logo {
+        height: 25%;
+        width: 40%;
+    }
+    
+    .hamburger {
+        visibility: visible;
+    }
+    // /* THE NAVBAR */
+
+    .navbar-ul {
+        display: none;
+    }
+
+
+    // THE CREATIVE SECTION
+
+    h1 {
+        font-size: 3.5em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .arrow {
+        position: absolute;
+        right: 46%;
+        top: 47%;
+    }
+
+    // THE TRANSFORM SECTION
+
+    .transform,
+    .stand-out {
+        height: 130vh;
+    }
+    .row-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row-1a {
+        display: block;
+        flex-direction: column;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-2 img {
+        width: 100%;
+    }
+
+    .content {
+        text-align: center;
+        padding: 3rem;
+        position: relative;
+    }
+
+    h2 {
+
+        font-size: 2em;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .standing-out-h2 {
+        font-size: 2rem;
+    }
+    .learn-more {
+        position: absolute;
+        bottom: 41px;
+        font-weight: bold;
+        left: 30%;
+        text-transform: uppercase;
+    }
+
+    .learn-more-hr-tr,
+    .learn-more-hr-st {
+        position: absolute;
+        width: 160px;
+        left: 28.5%;
+        border-radius: 50px;
+        height: 10px;
+    }
+
+    .learn-more-hr-tr {
+        background-color: rgb(141, 132, 4);
+    }
+    .learn-more-hr-st {
+        background-color: rgba(136, 4, 141, 0.993);
+    }
+
+    // THE DESIGN SECTION
+
+    .row-1b {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #graphic-design,
+    #photography {
+        height: 135vh;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 2.5em;
+        padding-top: 6rem;
+    }
+
+
+    // THE CLIENT TESTIMONIALS
+
+    .client-testimonials {
+        margin: 5rem 2rem;
+        justify-content: center;
+    }
+
+    .client-testimonial-heading {
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+        padding-bottom: 4rem;
+    }
+
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-3 img {
+        margin: 3rem auto 2rem auto;
+    }
+
+    .col-3 p {
+        text-align: center;
+        padding: 2rem;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    // THE PRODUCT IMAGES
+
+    .product-images {
+        height: 100%;
+    }
+    .row {
+        display: block;
+    }
+
+    .col-4-sm {
+        display: flex;
+        width: 100%;
+    }
+   
+    // THE FOOTER
+
+    footer {
+        height: 80vh;
+        position: relative;
+    }    
+    
+    .footer-container {
+        // position: absolute;
+        top: 20rem;
+        padding: 2rem;
+    }
+
+    .footer-logo {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .footer-nav {
+        display: flex;
+        margin: 0 2rem;
+    }
+
+    .footer-nav ul {
+        display: flex;
+    }
+
+    .footer-nav ul li {
+        margin: 0 1rem;
+        list-style: none;
+    }
+
+    .footer-nav ul li a {
+        text-decoration: none;
+        color: rgb(6, 51, 36);
+        font-size: 1.5rem;
+    }
+
+    .row-f {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+     .col {
+        margin: 1rem;
+     }
+
+
+    .attribution {
+        bottom: 1rem;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+
+    .attribution p {
+        font-size: 1.2em;
+        margin: 0 .5rem;
+    }
+
+    .attribution p a {
+        color: rgb(5, 48, 88);
+    }
+
+
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        width: 125%;
+    }
+    
+    header {
+        background-image: url('/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
+        height: 100vh;
+    }
+
+    
+    .navbar {
+        padding: 4rem 2rem;
+    }
+
+    .logo {
+        width: 30%;
+        height: 20%;
+    }
+    .hamburger {
+        visibility: visible;
+        margin-right: 2.5rem;
+    }
+
+    .navbar-ul {
+        display: none;
+    }
+
+    // THE CREATIVE SECTION
+
+    h1 {
+        font-size: 3.5em;
+        padding-top: 3.5rem;
+    }
+
+    .arrow {
+        right: 35%;
+        top: 45%;
+    }
+
+    // THE TRANSFORM SECTION
+
+    .transform,
+    .stand-out { 
+        height: 200vh;
+    }
+
+    .row-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row-1a {
+        display: block;
+        flex-direction: column;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-2 img {
+        width: 100%;
+    }
+
+    .content {
+        text-align: center;
+        padding: 2rem;
+        position: relative;
+    }
+
+    h2 {
+        justify-content: center;
+        font-size: 4em;
+        padding-top: 2rem;
+    }
+
+    .transform p,
+    .stand-out p {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .learn-more {
+        font-size: 1.5em;
+        bottom: 10px;
+        left: 41%;
+    }
+
+    .learn-more-hr-tr,
+    .learn-more-hr-st {
+        position: absolute;
+        bottom: 5px;
+        width: 190px;
+        left: 39%;
+        border-radius: 50px;
+        height: 10px;
+    }
+
+    .learn-more-hr-tr {
+        background-color: rgb(141, 132, 4);
+    }
+
+    .learn-more-hr-st {
+        background-color: rgba(136, 4, 141, 0.993);
+    }
+
+    // THE DESIGN SECTION
+
+    .row-1b {
+        display: flex;
+        flex-direction: column;
+    }
+    #graphic-design,
+    #photography {
+       height: 120vh;
+    }
+
+.photography-content,
+.graphic-design-content {
+    text-align: center;
+    padding-top: 30rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+padding-bottom: 3rem;
+}
+
+.graphic-design-content p,
+.photography-content p {
+    font-size: 2em;
+}
+
+
+// THE CLIENT TESTIMONIALS
+
+    .client-testimonials {
+        margin-top: 7rem;
+        justify-content: center;
+    }
+
+    .client-testimonial-heading {
+        font-size: 3em;
+        letter-spacing: 5px;
+        padding-bottom: 4rem;
+    }
+
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-3 p {
+        text-align: center;
+        padding: 3rem 2rem;
+        justify-content: center;
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    // THE PRODUCT IMAGES
+
+    .product-images {
+        // width: 100%/;
+        height: 150%;
+    }
+    .row {
+        display: block;
+        flex-direction: column;
+    }
+
+    .col-4-sm {
+        display: flex;
+        width: 100%;
+    }
+
+    // THE FOOTER
+
+    footer {
+        height: 100vh;
+        position: relative;
+    }
+
+    .footer-container {
+        // padding-top: 20rem;
+        bottom: 10rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        position: absolute;
+    }
+
+    .footer-logo {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .footer-nav {
+        display: flex;
+        margin: 0 2rem;
+    }
+
+    .footer-nav ul {
+        display: flex;
+    }
+
+    .footer-nav ul li {
+        margin: 0 1rem;
+        list-style: none;
+    }
+
+    .footer-nav ul li a {
+        text-decoration: none;
+        color: rgb(6, 51, 36);
+        font-size: 1.8rem;
+    }
+
+    .row-f {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .col {
+        margin: 1rem;
+    }
+
+
+    .attribution {
+        bottom: 1rem;
+        display: flex;
+        position: absolute;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: space-between;
+    }
+
+    .attribution p {
+        bottom: 5%;        
+        font-size: 1.5em;
+    }
+
+    .attribution p a {
+        color: rgb(21, 36, 51);
+    }
+
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+     header {
+        background-image: url('/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
+    }
+
+    .navbar-ul li {
+        margin: 0 1rem;
+    }
+    .navbar-ul li a {
+        font-size: 1.5em;
+    }
+
+    // THE CREATIVE SECTION
+
+    h1 {
+        font-size: 4em;
+        padding-top: 5.5rem;
+    }
+
+    .arrow {
+        right: 47%;
+        top: 55%;
+    }
+
+    // THE TRANSFORM SECTION
+
+    .transform {
+        height: 59vh;
+    }
+
+    .stand-out {
+        height: 58vh;
+    }
+
+    .content {
+        text-align: center;
+        padding: 2rem;
+        position: relative;
+    }
+
+    h2 {
+        padding-bottom: 1rem;
+        font-size: 2.5em;
+    }
+
+    .standing-out-h2 {
+        padding-bottom: 1rem;
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+    .learn-more {
+        bottom: 25px;
+        position: absolute;
+        left: 30%;
+    }
+
+    .learn-more-hr-tr,
+    .learn-more-hr-st {
+        position: absolute;
+        width: 160px;
+        left: 28.5%;
+        border-radius: 50px;
+        height: 10px;
+    }
+
+
+    // THE CLIENT TESTIMONIALS
+
+    .client-testimonials {
+        margin: 5rem 1rem;
+        // justify-content: center;
+    }
+
+    .client-testimonial-heading {
+        font-size: 3rem;
+    }
+
+    .col-3 p {
+        font-size: 1.2rem;
+    }
+
+    // THE PRODUCT IMAGES
+
+    .product-images {
+        height: 44%;
+    }
+
+    // THE FOOTER
+
+    footer {
+        height: 85vh;
+        position: relative;
+    }
+
+    .footer-container {
+        position: absolute;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .attribution {
+        padding-top: 40%;
+        bottom: 1rem;
+        margin: 0 4rem;
+    }
+
+    .attribution p {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+     header {
+        background-image: url('/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
+    }
+
+    // THE TRANSFORM SECTION
+
+    .transform {
+        height: 85.5vh;
+    }
+
+    .stand-out {
+        height: 83vh;
+    }
+    .content {
+        text-align: center;
+        padding: 4rem;
+        position: relative;
+    }
+
+    h2 {
+        padding-top: 2rem;
+        font-size: 3.5em;
+    }
+
+    .standing-out-h2 {
+        padding-top: 3rem;
+        font-size: 3.5em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+    .learn-more {
+        bottom: 60px;
+        position: absolute;
+        left: 20%;
+    }
+
+    .learn-more-hr-tr,
+    .learn-more-hr-st {
+        position: absolute;
+        width: 160px;
+        left: 19%;
+        border-radius: 50px;
+        height: 10px;
+    }
+
+    footer {
+        height: 85vh;
+    }
+}
